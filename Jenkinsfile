@@ -1,5 +1,5 @@
-def imageName="192.168.44.44:8082/docker_registry/frontend"
-def dockerRegistry="https://192.168.44.44:8082"
+def imageName="host.docker.internal:8082/docker_registry/frontend"
+def dockerRegistry="https://host.docker.internal:8082"
 def registryCredentials="artifactory"
 def dockerTag=""
 
